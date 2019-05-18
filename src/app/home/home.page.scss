@@ -48,13 +48,22 @@
 .info-policy .policy-image{
   padding: 1.5vh;
 }
+.menu-home{
+  margin-top: .5vh;
+}
 .menu-home i{
   font-size: 3.5vh;
 }
 .menu-home .menu-option{
   background-color: var(--ion-color-gambogeish-black);
   color: #fff;
+  padding: 2vh;
+}
+.menu-home .menu-option:not(:last-child){
+  border-right: solid .5vh var(--ion-color-moderate-red);
 }
 .menu-home .menu-option p{
-  font-size: 1.5vh;
+  font-size: 1.2vh;
+  text-transform: uppercase;
+  margin-bottom: 0 !important;
 }

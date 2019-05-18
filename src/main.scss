@@ -1,3 +1,10 @@
-.text-center{
-    text-align: center;
+ion-menu .fa-bell{
+    font-size: 3.5vh;
+}
+ion-menu .profile-photo{
+    width: 15vh;
+    margin-top: 4vh;
+}
+ion-menu ion-list{
+    background: transparent !important;
 }
